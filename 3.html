@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>
+        Pesquisa Orion Pro
+    </title>
+ 
+    <style>
+		button{
+            background-color: #42159C;
+            border: 1px solid #777;
+            border-radius: 10px;
+            font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+            font-size: 15px;
+            display: block;
+            width: 40%;
+			padding: 10px;
+			color: white;
+			margin: 40px 120px;
+        }
+		
+		
+ 
+        /* Styling the Body element i.e. Color,
+        Font, Alignment */
+		
+        body {
+            background-image: url(https://dsm01pap008files.storage.live.com/y4mZM2W5iVHQPy7KYlZtQB3ll8119_xNa8CRfkcLlALr_4H8VM3TJtqiZCMvIXn_GrkpZqMurCxN_1m9ZUp0nArhXOCDwP329YHdhwfUnQYBr2FVOlJAkTqAvhoRwbHuexWJJwplw-nMziCDacdj8I_m_CN5hgVKB7ETSM7qRZD8rPfoZdQJHYEL75pFZAd4pxl?width=1500&height=1500&cropmode=none);
+			background-position: right;
+            font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+            text-align: center;
+			color: #6A2FA6;
+        }
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 400px;
+            margin: 58px auto;
+			border-radius: 20px;
+            padding: 30px 50px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+			
+        }
+ 
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 10px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+			width: 95%;
+		}       
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        
+        
+    </style>
+</head>
+  
+<body>
+      <!-- Create Form -->
+    <form id="form">
+		<h1>Preencha os dados</h1>
+ 
+        <!-- Details -->
+        <form method="post" action="https://api.staticforms.xyz/submit">
+		<input type="hidden" name="2bdc03ee-d884-4348-abbb-a8a5cb839112" value="e44fc5d0-0b52-4cb1-9f79-fefc3800d89c"> <!-- Required -->
+
+			
+		<div class="form-control">
+		
+			<label for="name">Nome</label>
+            
+			<input type="text"  id="name"
+                   placeholder="Digite seu nome" />
+        </div>
+  
+        <div class="form-control">
+          <label for="email" id="label-email">
+                E-mail
+            </label>
+ 
+            <!-- Input Type Email-->
+          <input type="email"
+                   id="email"
+                   placeholder="Digite seu e-mail" />
+        </div>
+  
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Telefone
+            </label>
+ 
+            <!-- Input Type Text -->
+          <input type="text"
+                   id="age"
+                   placeholder="Digite seu telefone" />
+        </div>
+		
+		 <div class="form-control">
+            <label for="empresa" id="empresa">
+                Empresa
+            </label>
+ 
+            <!-- Input Type Text -->
+           <input type="text"
+                   id="empresa-quadro"
+                   placeholder="Digite o nome da sua empresa"/>
+			 
+			 <button type="submit">Próximo</button>
+			 
+			
+			</div>
+  
+         </form>
+</form>
+</body>
+  
+</html>
