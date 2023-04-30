@@ -11,19 +11,19 @@
     </title>
  
     <style>
-		a{
+		.button{
 			background-color: #A260F2;
-			padding: 10px;
-			display: block;
 			border-radius: 10px;
 			text-decoration: none;
 			color: white;
-			margin-top: 40px;
+			margin-top: 30px;
 			text-align: center;
+			margin-left: 15px;
 		
 		}
-		a:hover{
+		.button:hover{
 			background-color: #220347;
+			cursor: pointer;
 		}
 		
  
@@ -102,7 +102,7 @@
 			<label for="name">Nome</label>
             
 			<input type="text"  id="name"
-                   placeholder="Digite seu nome" />
+                  required number placeholder="Digite seu nome" />
         </div>
   
         <div class="form-control">
@@ -111,20 +111,18 @@
             </label>
  
             <!-- Input Type Email-->
-          <input type="email"
-                   id="email"
-                   placeholder="Digite seu e-mail" />
+          <input type="email" id="email" required  placeholder="Digite seu e-mail"/>
         </div>
   
         <div class="form-control">
             <label for="age" id="label-age">
-                Telefone
+    Telefone
             </label>
  
             <!-- Input Type Text -->
-          <input type="text"
+          <input type="tel"
                    id="age"
-                   placeholder="Digite seu telefone" />
+                  required  placeholder="Digite seu telefone" />
         </div>
 		
 		 <div class="form-control">
@@ -135,15 +133,18 @@
             <!-- Input Type Text -->
            <input type="text"
                    id="empresa-quadro"
-                   placeholder="Digite o nome da sua empresa"/>
+                   required placeholder="Digite o nome da sua empresa"/>
 			 
-			<a href="4.html">Próximo</a>
+			  <input type="hidden" name="redirectTo" value=a href=4.html> <!-- Optional -->
+        	<input type="submit" value="Próximo" class="button"/>
+    </form>
 			 
 			
 			</div>
   
          </form>
 </form>
+
 </body>
   
 </html>
